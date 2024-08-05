@@ -507,7 +507,7 @@ export default function Layout() {
               <h2 className="boldt">Commercial Serivces Management</h2>
               <div className="row m-auto mt-3 text-center">
                 {commercial.map((ele) => (
-                  <div className="col-md-2 m-auto mt-4">
+                  <div className="col-md-3 m-auto mt-4">
                     <img
                       src={ele.img}
                       width={150}
